@@ -25,5 +25,5 @@ let sum = (a,b) => {
 }
 
 let sumVal = sum(x,y);
-console.log("the value of sum is",sumVal);
+console.log("the value of sum is",sumVal);  
 
