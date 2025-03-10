@@ -1,4 +1,4 @@
-let arr = [3,4];
+let arr = [3,4,45,65,3,2,];
 
 // arr.forEach ((num) => {
 //     console.log(num*num);
@@ -26,3 +26,12 @@ let red = arr.reduce((val, res)=>{
 
 
 console.log(red);
+
+
+//finding the largest of the elements from the array
+
+let largest = arr.reduce((prev, curr)=> {
+    return prev > curr ? prev: curr;
+})
+
+console.log("The largest element is",largest);
