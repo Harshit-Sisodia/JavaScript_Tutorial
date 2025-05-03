@@ -21,6 +21,7 @@ function Selection_Sort(arr, compare_Function) {
         }
       }
   
+      var sel;
       temp = arr[i];
       arr[i] = min;
       arr[index] = temp;
