@@ -8,6 +8,7 @@ function Second_Greatest_Lowest(arr_num) {
     
     var uniqa = [arr_num[0]];
     
+    var uniq ;
     
     var result = [];
   
