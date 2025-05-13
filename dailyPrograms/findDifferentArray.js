@@ -1,12 +1,11 @@
 // Function to find the difference of two arrays
 function differenceOf2Arrays(array1, array2) {
-    // Temporary array to store the differences
+    
     var temp = [];
   
-    // Convert array1 to an array of numbers
     array1 = array1.toString().split(',').map(Number);
     
-    // Convert array2 to an array of numbers
+    \
     array2 = array2.toString().split(',').map(Number);
   
     // Iterate through each element in array1
