@@ -1,3 +1,8 @@
 var arr = ["apple", "mango", "banana"];
 
-arr.push
+console.log(arr);
+arr.push("leechi");
+
+console.log(arr);
+arr.pop();
+console.log(arr);
